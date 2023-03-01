@@ -19,3 +19,13 @@ CI builds are currently run for Kinetic and Melodic.
 - <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
 - <sup>2</sup>ROS: http://www.ros.org
 - <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
+
+
+## Usage
+
+Optimized launch flie.
+This file includes VLP16.launch, and run joy_to_twist.
+```
+roslaunch velodyne_pointcloud G-tune.launch
+```
+
